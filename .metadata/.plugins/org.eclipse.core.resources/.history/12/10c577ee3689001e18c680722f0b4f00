@@ -1,0 +1,20 @@
+package tugas55pbo;
+
+public class Android extends Handphone {
+    private String keyStore;
+
+    // Constructor
+    public Android(String manufacture, String operatingSystem, String model, int harga, String keyStore) {
+        super(manufacture, operatingSystem, model, harga);
+        this.keyStore = keyStore;
+    }
+
+    // Getter and Setter for keyStore
+    public String getKeyStore() {
+        return keyStore;
+    }
+
+    public void setKeyStore(String keyStore) {
+        this.keyStore = keyStore;
+    }
+}

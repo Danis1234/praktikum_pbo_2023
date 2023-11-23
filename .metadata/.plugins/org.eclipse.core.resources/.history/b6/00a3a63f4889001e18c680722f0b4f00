@@ -1,0 +1,12 @@
+package tugas58pbo;
+
+public class JumlahBilangan extends Bilangan {
+    public JumlahBilangan(int x, int y) {
+        super(x, y);
+    }
+
+    public void tampilHasilJumlah() {
+        int hasil = getX() + getY();
+        System.out.println("Hasil perjumlahan = " + hasil);
+    }
+}

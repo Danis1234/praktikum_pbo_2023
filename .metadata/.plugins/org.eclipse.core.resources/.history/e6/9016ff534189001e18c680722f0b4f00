@@ -1,0 +1,19 @@
+package tugas55pbo;
+
+public class WindowsPhone extends Handphone {
+    private String wpKeyStore;
+
+    // Constructor
+    public WindowsPhone(String manufacture, String operatingSystem, String model, int harga) {
+        super(manufacture, operatingSystem, model, harga);
+    }
+
+    // Getter and Setter for wpKeyStore
+    public String getWpKeyStore() {
+        return wpKeyStore;
+    }
+
+    public void setWpKeyStore(String wpKeyStore) {
+        this.wpKeyStore = wpKeyStore;
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;tugas2pbo&apos; to &apos;tugas53pbo&apos;&#x0D;&#x0A;- Original project: &apos;Tugas-PBO&apos;&#x0D;&#x0A;- Original element: &apos;Tugas-PBO/src/tugas2pbo&apos;&#x0D;&#x0A;- Renamed element: &apos;Tugas-PBO/src/tugas53pbo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;tugas2pbo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;tugas2pbo" name="tugas53pbo" qualified="false" references="true" stamp="1700656140301" textual="false" version="1.0"/>
+</session>

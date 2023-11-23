@@ -1,0 +1,20 @@
+package tugas53pbo;
+
+public class Rabbit extends Animal {
+	private String color;
+	private String name;
+
+    public Rabbit(String name, boolean vegetarian, String food, int noOfLegs, String color) {
+        super(vegetarian, food, noOfLegs);
+        this.color = color;
+        this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+    
+    public String getName() {
+        return name;
+    }
+}

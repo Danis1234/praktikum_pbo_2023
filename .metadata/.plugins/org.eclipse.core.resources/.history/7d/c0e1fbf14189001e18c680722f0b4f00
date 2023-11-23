@@ -1,0 +1,15 @@
+package tugas55pbo;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create instances of each class
+        Android androidPhone = new Android("Samsung", "Android", "Grand", 3000000);
+        androidPhone.displayProduct();
+
+        BlackBerry blackberryPhone = new BlackBerry("BlackB", "RIM", "Curve", 2000000);
+        blackberryPhone.displayProduct();
+
+        WindowsPhone windowsPhone = new WindowsPhone("Nokia", "WinB", "Lumia", 1000000);
+        windowsPhone.displayProduct();
+    }
+}

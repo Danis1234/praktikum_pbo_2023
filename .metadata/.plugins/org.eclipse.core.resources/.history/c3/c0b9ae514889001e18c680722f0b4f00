@@ -1,0 +1,24 @@
+package tugas58pbo;
+
+public class Bilangan {
+    private int x;
+    private int y;
+
+    public Bilangan() {
+        // Default constructor
+    }
+
+    public Bilangan(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+}
+
